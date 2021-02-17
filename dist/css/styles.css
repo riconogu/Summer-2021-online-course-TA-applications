@@ -552,6 +552,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container1{
+  float: left;
+}
+.circle1{
+  float:right;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -1255,6 +1261,7 @@ pre code {
   .row-cols-lg-4 > * {
     flex: 0 0 25%;
     max-width: 25%;
+
   }
 
   .row-cols-lg-5 > * {
@@ -1291,6 +1298,7 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
+    float:left !important;
   }
 
   .col-lg-5 {
@@ -9939,6 +9947,7 @@ h3 {
 
   .container {
     min-width: 992px !important;
+    float:right !important;
   }
 
   .navbar {
